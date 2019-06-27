@@ -15,11 +15,12 @@ export class AppService {
 		constructor(private http: HttpClient) { }
 
 		sayHello(): Observable<any> {
-				return this
+			return this
 				.http.get(this.greetUrl)
 				.pipe(
 					map((response: Response) => {
 						return response.text();
-				}));
+					})
+				);
 		}
 }
