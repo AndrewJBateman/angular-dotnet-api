@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppService } from './app.service';
@@ -13,7 +14,8 @@ import { AppComponent } from './app.component';
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
-		HttpClientModule
+		HttpClientModule,
+		MDBBootstrapModule.forRoot()
 	],
 	providers: [AppService],
 	bootstrap: [AppComponent]

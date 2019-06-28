@@ -17,9 +17,9 @@
 
 ## General info
 
-* ASP.Net is an open source dev platform. It is possible to use multiple languages, editors, and libraries to build for web, mobile, desktop, gaming and IoT. .NET apps can be written in C#, F#, or Visual Basic.
+* ASP.Net (Active Server Page) is an open source server-side modular web framework. It is possible to use multiple languages, editors, and libraries to build for web, mobile, desktop, gaming and IoT. .NET apps can be written in C#, F#, or Visual Basic.
 
-* .NET Core is used here - a cross-platform .NET implementation for websites, servers, and console apps on Windows, Linux, and macOS.
+* ASP.NET Core is used here as an API backend. .NET Core is a cross-platform .NET implementation for websites, servers, and console apps on Windows, Linux, and macOS.
 
 ## Screenshots
 
@@ -63,13 +63,13 @@ export class AppComponent implements OnInit {
 
 ## Features
 
-* tba
+* shows text on the UI using data binding and the app.service.ts service.
 
 ## Status & To-Do List
 
-* Status: Working but incomplete
+* Status: Working but without any styling from Bootstrap.
 
-* To-Do: complete tutorial to add chart.js, font-awesome etc.
+* To-Do: add functionality.
 
 ## Inspiration
 
